@@ -1,1 +1,2 @@
-# geoscribe
+# GeoScribe
+GeoScribe is a JSLibrary with the goal to accelerate the work of digital humanist working with historic document that they want to OCR and GeoSpatialize on a map. It includes many tools and a CLI.

@@ -1,0 +1,36 @@
+{
+  "name": "geoscribe",
+  "version": "1.0.0",
+  "description": "OCR for geohistorical data",
+  "main": "dist/main.js",
+  "bin": {
+    "mycli": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuavachon25/geoscribe.git"
+  },
+  "keywords": [
+    "ocr",
+    "geographic",
+    "geodata",
+    "geohistory",
+    "digital",
+    "humanities",
+    "archives"
+  ],
+  "author": "Joshua Vachon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuavachon25/geoscribe/issues"
+  },
+  "homepage": "https://github.com/joshuavachon25/geoscribe#readme",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "vitest": "^2.1.8"
+  }
+}
