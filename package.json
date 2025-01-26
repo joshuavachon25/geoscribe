@@ -1,13 +1,13 @@
 {
-  "name": "geoscribe",
-  "version": "1.0.0",
+  "name": "geoscrb",
+  "version": "0.1.0",
   "description": "OCR for geohistorical data",
   "main": "dist/main.js",
   "bin": {
-    "mycli": "dist/cli.js"
+    "geoscribe": "bin/cli.js"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup",
     "test": "test"
   },
   "repository": {
@@ -31,6 +31,21 @@
   "homepage": "https://github.com/joshuavachon25/geoscribe#readme",
   "devDependencies": {
     "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
     "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.3",
+    "@techstark/opencv-js": "^4.10.0-release.1",
+    "@turf/turf": "^7.2.0",
+    "axios": "^1.7.9",
+    "canvas": "^3.1.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "jsdom": "^26.0.0",
+    "nodehun": "^3.0.2",
+    "ora": "^8.1.1",
+    "sharp": "^0.33.5",
+    "tesseract.js": "^6.0.0"
   }
 }
